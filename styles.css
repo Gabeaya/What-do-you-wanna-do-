@@ -1,0 +1,14 @@
+#app {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  width: 60px;
+  left: 172px;
+  top: -20px;
+  z-index: 2; /* this will place the marker ontop of what is 2 index of 1 */
+}
